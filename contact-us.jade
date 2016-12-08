@@ -1,0 +1,141 @@
+doctype html
+html
+	head
+		title Home  |  Flat Theme
+		meta(charset="utf-8")
+		link(rel="stylesheet", href="materialize/css/materialize.min.css")
+		link(rel="stylesheet", href="css/font-awesome.min.css")
+		link(rel="stylesheet", href="css/animate.css")
+		link(rel="stylesheet", href="css/main.css")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+		link(rel="stylesheet", href="css/utilities.css")
+		link(rel="shortcut icon", href="images/ico/favicon.ico")
+		
+
+	body
+		nav
+			.nav-wrapper.blue-grey.darken-2
+				img.responsive-img(src="images/logo.png", alt="logo de flat theme")
+				a(href="#" data-activates="mobile-demo").button-collapse
+					i.material-icons menu
+				ul.right.hide-on-med-and-down
+					li
+						a(href="index.html") Home
+					li
+						a(href="about-us.html") About Us
+					li
+						a(href="services.html") Services
+					li
+						a(href="portfolio.html") Portfolio
+					li
+						a(href="blog.html") Blog
+					li
+						a(href="contact-us.html") Contact
+				ul.side-nav#mobile-demo
+					li
+						a(href="index.html") Home
+					li
+						a(href="about-us.html") About Us
+					li
+						a(href="services.html") Services
+					li
+						a(href="portfolio.html") Portfolio
+					li
+						a(href="blog.html") Blog
+					li
+						a(href="contact-us.html") Contact
+		section
+			.row.back-green.text-white
+				.col.s6.m6.l6
+					h2 Contact US
+					p Pellentesque habitant morbi trsitique senectus et nectus et malesuada
+				.col.s6.m6.l6
+					ul
+						li.li-nav Home
+						li.li-nav Contact US
+						//- seccion integrada por un contact form un textarea y un mapa
+		section
+			.row
+				.col.s12.m4.l4 
+					h4 Contact Form
+					input(type="text" placeholder=" First Name")
+					input(type="text" placeholder=" Last Name")
+					input(type="text" placeholder=" Email Address")
+					button.btn 	Send Message
+				.col.s12.m4.l4 
+					textarea.text(name="", cols="30", rows="10" placeholder="Message")
+				.col.s12.m4.l4 
+					iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.72348374716!2d90.2790269717671!3d23.78094249385634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDaca%2C+Bangladesh!5e0!3m2!1ses-419!2smx!4v1481155865455", width="400", height="450",frameborder="0", style="border:0", allowfullscreen)
+	
+		section <!--esta es mi seccion repetida en todas las paginas-->
+			.row.back-section
+				.col.s12.m3.l3
+					h6 About Us
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi libero dolores ut, voluptate fuga incidunt aliquid illum, veritatis non expedita nostrum sed nobis perspiciatis, magni consequuntur eaque suscipit facere vel?
+				.col.s12.m3.l3
+					h6 Company
+					ul
+						li >Company Ovierview
+						li >Meet the team
+						li >Our Awesome Partners
+						li >Our Services
+						li >Frenquently Asked Questions
+						li >Contact Us
+						li >Privacy Policy
+						li >Term of Use
+						li >Copyright
+				.col.s12.m3.l3
+					.row
+						h6 Latest Blog
+						.col.s4.m4.l4
+							img.responsive-img(src="images/blog/thumb1.jpg", alt="")
+						.col.s8.m8.l8
+							small Pellentesque habitant morbi trsitique senectus.
+								br
+								small Posted 17 Aug 2013
+					.row
+						h6 Latest Blog
+						.col.s4.m4.l4
+							img.responsive-img(src="images/blog/thumb2.jpg", alt="")
+						.col.s8.m8.l8
+							small Pellentesque habitant morbi trsitique senectus.
+								br
+								small Posted 17 Aug 2013
+					.row
+						h6 Latest Blog
+						.col.s4.m4.l4
+							img.responsive-img(src="images/blog/thumb2.jpg", alt="")
+						.col.s8.m8.l8
+							small Pellentesque habitant morbi trsitique senectus.
+								br
+								small Posted 17 Aug 2013
+				.col.s12.m3.l3
+					h6 Address
+					small Twitter, Inc
+						br
+					small 795 Folsom Ave, Suite 600
+						br
+					small San Francisco, CA 94107
+						br
+					small (123) 456 789)
+					h6 Newsletter
+					form
+						input 
+						button.btn Go!
+		footer
+			.row.back-footer
+				.col.s6.m6.l6
+					p &#169 2013 ShapeBootstrap. All rights Reserved.
+				.col.s6.m6.l6
+					ul
+						li.li-foot Home
+						li.li-foot About Us
+						li.li-foot Contact Us
+						li.li-foot 
+							i.material-icons keyboard_arrow_up
+
+		//- javascript
+
+		script(src="js/jquery.js")
+		script(src="js/materialize.min.js")
+		script(src="js/main.js")

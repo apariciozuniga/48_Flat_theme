@@ -1,0 +1,229 @@
+doctype html
+html
+	head
+		title Home  |  Flat Theme
+		meta(charset="utf-8")
+		link(rel="stylesheet", href="materialize/css/materialize.min.css")
+		link(rel="stylesheet", href="css/font-awesome.min.css")
+		link(rel="stylesheet", href="css/animate.css")
+		link(rel="stylesheet", href="css/main.css")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+		link(rel="stylesheet", href="css/utilities.css")
+		link(rel="shortcut icon", href="images/ico/favicon.ico")
+		
+
+	body
+		nav
+			.nav-wrapper.blue-grey.darken-2
+				img.responsive-img(src="images/logo.png", alt="logo de flat theme"
+				)
+				a(href="#" data-activates="mobile-demo").button-collapse
+					i.material-icons menu
+				ul.right.hide-on-med-and-down
+					li
+						a(href="index.html") Home
+					li
+						a(href="about-us.html") About Us
+					li
+						a(href="services.html") Services
+					li
+						a(href="portfolio.html") Portfolio
+					li
+						a(href="blog.html") Blog
+					li
+						a(href="contact-us.html") Contact
+				ul.side-nav#mobile-demo
+					li
+						a(href="index.html") Home
+					li
+						a(href="about-us.html") About Us
+					li
+						a(href="services.html") Services
+					li
+						a(href="portfolio.html") Portfolio
+					li
+						a(href="blog.html") Blog
+					li
+						a(href="contact-us.html") Contact
+		section
+			.row.back-green.text-white
+				.col.s6.m6.l6
+					h2 Blog
+					p Pellentesque habitant morbi trsitique senectus et nectus et malesuada
+				.col.s6.m6.l6
+					ul
+						li.li-nav Home
+						li.li-nav Blog
+		section
+			.row
+				.col.s12.m7.l7
+					.row
+						.col.s12.m12.l12
+							img.responsive-img(src="images/blog/blog1.jpg", alt="")
+							h5 Duis sed odio sit  amet nibh vulputate cursus
+							ul
+								li.blog
+									i.icon-user Jhon
+								li.blog
+									i.icon-folder-close Bootstrap
+								li.blog
+									i.icon-calendar Sept 16th, 2012
+								li.blog
+									i.icon-comment 3 Comments
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam vero placeat iure autem inventore nulla hic, ratione fugiat libero quo impedit, dolor voluptates commodi rerum magnam! Distinctio quas ratione id! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aperiam repellendus odit, labore minus quia omnis iusto quam sequi ad molestiae saepe impedit numquam incidunt optio similique cupiditate quidem modi.
+							button.btn Read More
+								a(href="blog-item.html")
+					.row
+						.col.s12.m12.l12
+							img.responsive-img(src="images/blog/blog2.jpg", alt="")
+							h5 Duis sed odio sit  amet nibh vulputate cursus
+							ul
+								li.blog
+									i.icon-user Jhon
+								li.blog
+									i.icon-folder-close Bootstrap
+								li.blog
+									i.icon-calendar Sept 16th, 2012
+								li.blog
+									i.icon-comment 3 Comments
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam vero placeat iure autem inventore nulla hic, ratione fugiat libero quo impedit, dolor voluptates commodi rerum magnam! Distinctio quas ratione id! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aperiam repellendus odit, labore minus quia omnis iusto quam sequi ad molestiae saepe impedit numquam incidunt optio similique cupiditate quidem modi.
+							button.btn Read More
+								a(href="blog-item.html")
+					ul.pagination
+						li.disabled
+							a(href="#!")
+								i.material-icons chevron_left
+						li.active
+							a(href="#!") 1
+						li.waves-effect
+							a(href="#!") 2
+						li.waves-effect
+							a(href="#!") 3
+						li.waves-effect
+							a(href="#!") 4
+						li.waves-effect
+							a(href="#!") 5
+						li.disabled
+							a(href="#!")
+								i.material-icons chevron_right
+
+				//- este es mi aside con imagenes y texto
+				aside 
+					.col.s12-m5.l5
+						.row
+							.col.s12.m12.l12
+								form
+									.input.field
+										input(type="text" placeholder="Search")
+						.row
+							.col.s6.m6.l6
+								img.responsive-img(src="images/ads/ad1.png", alt="")
+							.col.s6.m6.l6
+								img.responsive-img(src="images/ads/ad2.png", alt="")
+						.row
+							.col.s6.m6.l6
+								img.responsive-img(src="images/ads/ad3.png", alt="")
+							.col.s6.m6.l6
+								img.responsive-img(src="images/ads/ad4.png", alt="")
+						.row
+							h4 Blog Categories
+							.col.s6.m6.l6
+								ul
+									li >Development
+									li >Design
+									li >Updates
+									li >Tutorial
+									li >News
+							.col.s6.m6.l6
+								ul
+									li >Joomla
+									li >WordPress
+									li >Drupal
+									li >Magento
+									li >Bootstrap
+						.row
+							h3 Tag Could
+							.col.s2.m2.l2.chip CSS
+							.col.s2.m2.l2.chip HTML5
+							.col.s2.m2.l2.chip WordPress
+							.col.s2.m2.l2.chip Joomla
+							.col.s2.m2.l2.chip Drupal
+							.col.s2.m2.l2.chip Bootstrap
+						.row
+							.col.s2.m2.l2.chip jQuery
+							.col.s2.m2.l2.chip Tutorial
+							.col.s2.m2.l2.chip Updates
+						h4 Facebook Fanpage
+							
+		section <!--esta es mi seccion repetida en todas las paginas-->
+			.row.back-section
+				.col.s12.m3.l3
+					h6 About Us
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi libero dolores ut, voluptate fuga incidunt aliquid illum, veritatis non expedita nostrum sed nobis perspiciatis, magni consequuntur eaque suscipit facere vel?
+				.col.s12.m3.l3
+					h6 Company
+					ul
+						li >Company Ovierview
+						li >Meet the team
+						li >Our Awesome Partners
+						li >Our Services
+						li >Frenquently Asked Questions
+						li >Contact Us
+						li >Privacy Policy
+						li >Term of Use
+						li >Copyright
+				.col.s12.m3.l3
+					.row
+						h6 Latest Blog
+						.col.s4.m4.l4
+							img.responsive-img(src="images/blog/thumb1.jpg", alt="")
+						.col.s8.m8.l8
+							small Pellentesque habitant morbi trsitique senectus.
+								br
+								small Posted 17 Aug 2013
+					.row
+						h6 Latest Blog
+						.col.s4.m4.l4
+							img.responsive-img(src="images/blog/thumb2.jpg", alt="")
+						.col.s8.m8.l8
+							small Pellentesque habitant morbi trsitique senectus.
+								br
+								small Posted 17 Aug 2013
+					.row
+						h6 Latest Blog
+						.col.s4.m4.l4
+							img.responsive-img(src="images/blog/thumb2.jpg", alt="")
+						.col.s8.m8.l8
+							small Pellentesque habitant morbi trsitique senectus.
+								br
+								small Posted 17 Aug 2013
+				.col.s12.m3.l3
+					h6 Address
+					small Twitter, Inc
+						br
+					small 795 Folsom Ave, Suite 600
+						br
+					small San Francisco, CA 94107
+						br
+					small (123) 456 789)
+					h6 Newsletter
+					form
+						input 
+						button.btn Go!
+		footer
+			.row.back-footer
+				.col.s6.m6.l6
+					p &#169 2013 ShapeBootstrap. All rights Reserved.
+				.col.s6.m6.l6
+					ul
+						li.li-foot Home
+						li.li-foot About Us
+						li.li-foot Contact Us
+						li.li-foot 
+							i.material-icons keyboard_arrow_up
+
+		//- javascript
+
+		script(src="js/jquery.js")
+		script(src="js/materialize.min.js")
+		script(src="js/main.js")
